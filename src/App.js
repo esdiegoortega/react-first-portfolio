@@ -2,9 +2,9 @@ import './App.css';
 import { MyRoutes } from './components/routers/MyRoutes';
 function App() {
   return (
-    <>
+    <div className="layout">
     <MyRoutes/>
-    </>
+    </div>
   );
 }
 
